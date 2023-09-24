@@ -1,0 +1,235 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'MB';
+}
+
+body {
+    background: #151515;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1110px;
+    width: 100%;
+}
+
+.header__nav {
+    background: #282828;
+    padding: 6px 0;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.footer__nav {
+    background: #282828;
+    padding: 80px 0;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 55px;
+}
+
+.header__nav-box, 
+.footer__nav-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav-left,
+.header__nav-right,
+.footer__nav-midle,
+.footer__nav-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.header__nav-ul,
+.footer__nav-ul {
+    display: flex;
+    gap: 30px;
+}
+
+.header__nav-link,
+.footer__nav-link {
+    color: #FFF;
+    font-family: 'MB';
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header__content {
+    background: url(../images/headerheadphones.jpg) no-repeat center /cover;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 38px;
+}
+
+.header__content-headline {
+    color: #FFF;
+    font-family: 'POR';
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 75px;
+    text-align: center;
+}
+
+.header__content-text {
+    color: #171718;
+    font-family: 'MM';
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.header__content-link {
+    border-radius: 10px;
+    background: #FFF;
+    padding: 13px 18px;
+    display: flex;
+    column-gap: 11px;
+}
+
+.main__box {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.main__headphones-text {
+    color: #FFF;
+    font-family: 'MM';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+.main__box-base {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 87px;
+}
+
+.main__mono-text-one {
+    text-align: right;
+    color: #FFF;
+    font-family: 'MB';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main__mono-text-two {
+    text-align: left;
+    color: #FFF;
+    font-family: 'MB';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main__mono-img {
+    position: relative;
+}
+
+.main__mono-img::before {
+    content: '';
+    width: 61px;
+    height: 1px;
+    background: #FFF;
+    display: block;
+    position: absolute;
+    left: -70px;
+    bottom: 50%;
+}
+
+.main__mono-img::after {
+    content: '';
+    width: 61px;
+    height: 1px;
+    background: #FFF;
+    display: block;
+    position: absolute;
+    right: -70px;
+    top: 50%;
+}
+
+.main__marketplace-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    margin-top: 80px;
+}
+
+.main__marketplace-item {
+    border-radius: 6px;
+    background: #FFF;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-height: 312px;
+    width: 100%;
+}
+
+.main__marketplace-headline {
+    color: #000;
+    font-family: 'MB';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main__marketplace-img {
+    padding: 10px 0;
+}
+
+.main__marketplace-text {
+    color: #000;
+    font-family: 'MR';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.main__marketplace-link {
+    background: #151515;
+    padding: 7px 57px;
+    color: #FFF;
+    font-family: 'MB';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
